@@ -32,7 +32,7 @@ TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.a51
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-BOARD_BOOT_HEADER_NAME       := SRPSG30B003KU
+BOARD_BOOT_HEADER_NAME       := SRPSG30B004RU
 TARGET_KERNEL_CONFIG := exynos9610-a51xx_defconfig
 BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/a51.cfg
 
@@ -64,3 +64,4 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Inherit common board flags
 include device/samsung/universal9610-common/BoardConfigCommon.mk
+

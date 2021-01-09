@@ -1,4 +1,4 @@
-#
+ #
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -80,3 +80,11 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Inherit device vendor
 $(call inherit-product-if-exists, vendor/samsung/a51/a51-vendor.mk)
+
+GAPPS_VARIANT := nano
+
+GAPPS_PRODUCT_PACKAGES += \
+			Chrome \
+		 GoogleKeyboard 
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
