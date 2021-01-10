@@ -9,3 +9,13 @@ You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 ---
+git clone https://github.com/LineageOS/android_hardware_samsung hardware/samsung
+git clone https://github.com/Yilliee/android_device_samsung_a51/ device/samsung/A51
+git clone https://github.com/Yilliee/android_device_samsung_universal9610-common device/samsung/universal9610-common
+git clone https://github.com/Yilliee/android_kernel_samsung_universal9610 kernel/samsung/universal9610
+git clone https://github.com/Yilliee/proprietary_vendor_samsung-1 vendor/samsung
+git clone https://github.com/opengapps/aosp_build vendor/opengapps/build
+git clone https://opengapps.gitlab.com/opengapps/arm vendor/opengapps/source/arm
+git clone https://opengapps.gitlab.com/opengapps/arm64 vendor/opengapps/source/arm64
+git clone https://opengapps.gitlab.com/opengapps/x86 vendor/opengapps/source/x86
+git clone https://opengapps.gitlab.com/opengapps/x86_64 vendor/opengapps/source/x86_64
