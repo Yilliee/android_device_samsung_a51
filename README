@@ -15,7 +15,7 @@ git clone https://github.com/Yilliee/android_device_samsung_universal9610-common
 git clone https://github.com/Yilliee/android_kernel_samsung_universal9610 kernel/samsung/universal9610
 git clone https://github.com/Yilliee/proprietary_vendor_samsung-1 vendor/samsung
 git clone https://github.com/opengapps/aosp_build vendor/opengapps/build
-git clone https://opengapps.gitlab.com/opengapps/arm vendor/opengapps/source/arm
-git clone https://opengapps.gitlab.com/opengapps/arm64 vendor/opengapps/source/arm64
-git clone https://opengapps.gitlab.com/opengapps/x86 vendor/opengapps/source/x86
-git clone https://opengapps.gitlab.com/opengapps/x86_64 vendor/opengapps/source/x86_64
+git clone https://opengapps.gitlab.com/opengapps/arm vendor/opengapps/sources/arm
+git clone https://opengapps.gitlab.com/opengapps/arm64 vendor/opengapps/sources/arm64
+git clone https://opengapps.gitlab.com/opengapps/x86 vendor/opengapps/sources/x86
+git clone https://opengapps.gitlab.com/opengapps/x86_64 vendor/opengapps/sources/x86_64
