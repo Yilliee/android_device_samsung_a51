@@ -19,3 +19,4 @@ git clone https://opengapps.gitlab.com/opengapps/arm vendor/opengapps/sources/ar
 git clone https://opengapps.gitlab.com/opengapps/arm64 vendor/opengapps/sources/arm64
 git clone https://opengapps.gitlab.com/opengapps/x86 vendor/opengapps/sources/x86
 git clone https://opengapps.gitlab.com/opengapps/x86_64 vendor/opengapps/sources/x86_64
+git clone https://opengapps.gitlab.com/opengapps/all vendor/opengapps/sources/all
