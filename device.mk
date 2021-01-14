@@ -16,9 +16,9 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
+#ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-endif
+#endif
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -37,10 +37,10 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint feature
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.a51
+    rr.biometrics.fingerprint.inscreen@1.0-service.a51
 
 PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    vendor/rr/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -81,10 +81,12 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 # Inherit device vendor
 $(call inherit-product-if-exists, vendor/samsung/a51/a51-vendor.mk)
 
-GAPPS_VARIANT := nano
+#GAPPS_VARIANT := nano
 
-GAPPS_PRODUCT_PACKAGES += \
-			Chrome \
-		 GoogleKeyboard 
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+#GAPPS_PRODUCT_PACKAGES += \
+#			Chrome \
+#		 GoogleKeyboard 
+#$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
+TARGET_HAS_FOD := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
