@@ -33,7 +33,8 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_BOOT_HEADER_NAME := SRPSG30B004RU
-TARGET_KERNEL_CONFIG := exynos9610-a51xx_defconfig
+TARGET_KERNEL_CONFIG := bluefly_a51_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/a51
 BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/a51.cfg
 
 # Partitions
